@@ -1,3 +1,32 @@
+
 body {
   background: blanchedalmond;
 }
+
+body{
+border: 3px solid red;
+text-align: center;
+margin:auto
+}
+
+.a,b,c{
+margin:0;  
+}
+
+.a{
+  width: 90%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 1px white;
+}
+
+
+ .b{
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ }
